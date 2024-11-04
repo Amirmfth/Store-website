@@ -44,6 +44,10 @@ header a:hover {
   font-size: 1rem;
 }
 
+#search input:focus {
+    border-color: var(--color-primary);
+}
+
 #search button {
   padding: 10px;
   border-radius: 5px;
